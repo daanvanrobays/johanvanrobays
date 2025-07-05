@@ -1,0 +1,465 @@
+﻿/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    /* body padding for fixed top nav */
+}
+
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+
+.centeredImageContainer {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.centeredImage {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+}
+
+.tab-pane {
+    margin-top: 15px;
+}
+
+/* Page Sections */
+.section,
+.section-colored {
+    padding: 20px 20px 20px 20px;
+}
+
+.section-colored {
+    background-color: #e1e1e1;
+    /* change this to change the background color of a colored section */
+}
+
+/*hover-large over image css end*/
+.hovertext-large {
+    position: relative;
+    height: 50em;
+    width: 38em;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+    background-color: #18BC9C;
+    border-radius: 6px;
+}
+
+    .hovertext-large img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hovertext-large p, .hovertext-large h2 {
+        color: #fff;
+        padding: 10px;
+        left: -20px;
+        top: 30px;
+        position: relative;
+    }
+
+    .hovertext-large p {
+        font-family: 'Lato';
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0;
+    }
+
+    .hovertext-large h2 {
+        font-size: 24px;
+        line-height: 16px;
+        margin: 0;
+        font-family: 'Lato';
+    }
+
+.effect img.slideimage-large:hover {
+    bottom: -100px;
+    padding-top: 0px;
+}
+/*hover-small over image css end*/
+
+/*hover-small over image css end*/
+.hovertext-small {
+    position: relative;
+    height: 21em;
+    width: 25em;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+    background-color: #18BC9C;
+    border-radius: 6px;
+}
+
+    .hovertext-small img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hovertext-small p, .hovertext-small h2 {
+        color: #fff;
+        padding: 10px;
+        left: -20px;
+        top: 30px;
+        position: relative;
+    }
+
+    .hovertext-small p {
+        font-family: 'Lato';
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0;
+    }
+
+    .hovertext-small h2 {
+        font-size: 24px;
+        line-height: 16px;
+        margin: 0;
+        font-family: 'Lato';
+    }
+
+.effect img.slideimage-small:hover {
+    bottom: -100px;
+    padding-top: 0px;
+}
+/*hover-small over image css end*/
+
+/*hover over image css start*/
+.hovertext {
+    position: relative;
+    height: 37em;
+    width: 25em;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+    background-color: #18BC9C;
+    border-radius: 6px;
+}
+
+    .hovertext p, .hovertext h2 {
+        color: #fff;
+        padding: 10px;
+        left: -20px;
+        top: 30px;
+        position: relative;
+    }
+
+    .hovertext p {
+        font-family: 'Lato';
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0;
+    }
+
+    .hovertext h2 {
+        font-size: 25px;
+        line-height: 24px;
+        margin: 0;
+        font-family: 'Lato';
+    }
+
+.effect img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 6px;
+    -webkit-transition: bottom .3s ease-in-out;
+    -moz-transition: bottom .3s ease-in-out;
+    -o-transition: bottom .3s ease-in-out;
+    transition: bottom .3s ease-in-out;
+}
+
+    .effect img.slideimage:hover {
+        bottom: -100px;
+        padding-top: 30px;
+    }
+
+h2.zero, p.zero {
+    margin: 0;
+    padding: 0;
+}
+/*hover over image css end*/
+
+.homebold {
+    font-weight: bold;
+}
+
+.readmore {
+    height: 15em;
+    width: 22em;
+}
+
+.articles {
+    width: 15em;
+    height: 12em;
+}
+
+.articles-medium {
+    width: 16em;
+    height: 13em;
+}
+
+.pdf-articles-small {
+    width: 15em;
+    height: 20em;
+}
+
+.sideimage {
+    height: 37em;
+    width: 25em;
+}
+
+.squares {
+    height: 12.500em;
+    width: 12.500em;
+    display: block;
+    max-width: 12em;
+    max-height: 12em;
+    width: auto;
+    height: auto;
+}
+
+.squares-medium {
+    height: 16.500em;
+    width: 16.500em;
+    display: block;
+    max-width: 16em;
+    max-height: 16em;
+    width: auto;
+    height: auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    margin-top: 40px;
+}
+
+    .sidebar ul {
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid #cccccc;
+    }
+
+/* Half Page Height Carousel Customization */
+.carousel {
+    height: 50%;
+}
+
+.carouselbig {
+    height: 100%;
+}
+
+.carousel .item,
+.carousel .active,
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100% !important;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+    margin-bottom: 45px;
+}
+
+.tooltip-social a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.facebook-link a:hover {
+    color: #3b5998;
+}
+
+.linkedin-link a:hover {
+    color: #007fb1;
+}
+
+.twitter-link a:hover {
+    color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+    color: #d14836;
+}
+
+/* Service Page Styles */
+.service-icon {
+    font-size: 50px;
+}
+
+/* 404 Page Styles */
+.error-404 {
+    font-size: 8em;
+}
+
+/* Pricing Page Styles */
+.price {
+    font-size: 4em;
+}
+
+.blog-date {
+    float: left;
+    border-right: 2px solid #cecece;
+    padding-right: 20px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+    .blog-date h2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0px;
+    }
+
+    .blog-date h3 {
+        font-size: 20px;
+        color: #535353;
+        margin: 0px;
+    }
+
+
+.blog-data {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.bio-breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 0px;
+    list-style: none;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+}
+
+.blog {
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    padding: 10px 15px;
+    list-style: none;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+}
+
+.blog-content p {
+    line-height: 1.7;
+    font-size: 16px;
+    padding-left: 7em;
+}
+
+
+.price-cents {
+    vertical-align: super;
+    font-size: 50%;
+}
+
+.price-month {
+    font-size: 35%;
+    font-style: italic;
+}
+
+.lazy {
+    background-image: url('/Images/Lightbox/loading.gif');
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Footer Styles */
+footer {
+    margin: 50px 0;
+}
+
+/* Additional custom styles for vanilla HTML version */
+.blackoutline {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    color: #ffffff;
+}
+
+.page-header {
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.breadcrumb > li {
+    display: inline-block;
+}
+
+.breadcrumb > li + li:before {
+    content: "/\00a0";
+    padding: 0 5px;
+    color: #ccc;
+}
+
+.breadcrumb > .active {
+    color: #777;
+}
+
+/* Navigation active state */
+.navbar-nav > li.active > a {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+/* Improved mobile navigation */
+@media (max-width: 767px) {
+    .navbar-nav {
+        margin: 7.5px -15px;
+    }
+    
+    .navbar-nav > li > a {
+        padding: 10px 15px;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+
+    .carousel {
+        height: 70%;
+        /* increases the carousel height so it looks good on phones */
+    }
+}
